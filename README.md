@@ -1,9 +1,9 @@
 socketio-helloworld
 ===================
 
-Introduction to Node.js and Socket.io for realtime web applications
+Introduction to Node.js and Socket.io with a realtime web chat application.
 
 ## Requirements
 * **Node.JS**
-* **Socket.IO**
 * **Express**
+* **Socket.IO**
