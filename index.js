@@ -6,7 +6,7 @@ var request = require('request');
 
 app.get('/', function(req, res){
 	var options = {
-	root: __dirname,
+		root: __dirname+'/public',
 	};
 	res.sendFile('index.html',options);
 	request('https://data.usajobs.gov/api/jobs?series=2210').pipe(fs.createWriteStream('test.json'));
