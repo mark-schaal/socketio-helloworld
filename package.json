@@ -1,0 +1,12 @@
+{
+  "name": "socket-HelloWorld",
+  "version": "0.0.1",
+  "description": "My first socket.io app",
+  "dependencies": {
+    "express": "^4.8.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mark-schaal/socketio-helloworld.git"
+  }
+}
